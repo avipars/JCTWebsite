@@ -23,7 +23,7 @@ html {
   }
   .information{
       font-size: 8px;
-      
+      margin: 0;
   }
 
   .user-btn{
@@ -216,7 +216,7 @@ html {
    color: #c9f3f5;
   white-space: nowrap;
   padding: 0;
-  font-size: 15px;
+  font-size: 10px;
   overflow: auto;
   margin: 0;
   transition: none;
@@ -224,6 +224,7 @@ html {
  }
  .normal:hover{
    background: none;
+   color: #03e9f4;
    box-shadow: none;
  }
 
@@ -238,7 +239,7 @@ html {
 }
 .sign-text{
   white-space: nowrap;
-  margin-left: 10px;
+  margin: 0;
   padding: 0;
 }
 
