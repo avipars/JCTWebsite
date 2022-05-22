@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="loginstyle.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 <body>
     <div class="login-box">
@@ -14,7 +16,16 @@
             <h2 class="title"> Welcome to the Student Resources Website fort the JCT International Program!</h2>
         </div>
           <form>
-        
+            <div class="switch-field">
+              <input type="radio" id="radio-three" name="switch-two" value="yes" checked/>
+              <label for="radio-three">Student</label>
+              <input type="radio" id="radio-four" name="switch-two" value="maybe" />
+              <label for="radio-four">Alumni</label>
+              <input type="radio" id="radio-five" name="switch-two" value="no" />
+              <label for="radio-five">Admin</label>
+            </div>
+          
+
             <div class="user-box">
               <input type="text" name="" required="">
               <label>Username</label>
@@ -24,17 +35,30 @@
               <label>Password</label>
             </div>
             <span class="user-btn">   
-            <button class="remember-me">
-                
-            </button>
-            <h2 class="btn-text">Remember me</h2>
+            <input class="remember-me" type="checkbox" name="Remember-me" value="Remember-me">
+              <label for="remember-me" class="remember-me-label"> Remember me</label>
             </span>
-            <h2 class="information">Please sign / log in with your Moodle/Lev Net Account</h2>
-            <a href="#">
-                <span></span>
-              <span></span>
-             <span></span>
-              <span></span>
+            <h2 class="information">You may sign up with your social media account below</h2>
+
+
+            <div class="social-media">
+              <span class="social-container">
+              <a href="#" class="an ak"><i class="fab fa-facebook-f"></i> </a>
+              <a href="#" class="an"><i class="fab fa-github"></i></a>
+              <a href="#" class="an"><i class="fab fa-linkedin-in"></i></a>
+              </span>
+          </div>
+
+
+            <span class="sign-up">            
+              <h2 class="information sign-text">Don't have an account yet? Sign up</h2>
+              <a class="normal" href="#">here</a>
+            </span>
+            <a href="#" class="ah">
+                <span class="sp"></span>
+              <span class="sp"></span>
+             <span class="sp"></span>
+              <span class="sp"></span>
               Submit
             </a>
             
