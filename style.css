@@ -1,0 +1,158 @@
+body{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #2e2e2e;
+}
+
+.menu{
+    float: left;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(blue, rgba(0, 102, 255, 0.267));
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.top-menu .uu {
+    white-space: nowrap;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+    text-decoration: none;
+}
+
+.top-menu .aa {
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.4em;
+}
+
+.top-menu .aa:hover {
+	color: #a494f5;
+}
+
+li{
+    text-decoration: none;
+}
+
+
+.logo-link{
+    white-space: nowrap;
+    height: 50px;
+    width: 50px;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.Account{
+    float: left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    left: 0;    
+    text-decoration: none;
+  
+
+    height: 30px;
+    width: 220px;
+    white-space: nowrap;
+    margin: auto;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.Account-img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0;
+    background-color: rebeccapurple ;
+}
+
+.Account-h3{
+    font-size: 22px;
+    margin: auto;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Account-link{
+    margin: auto;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #a494f5;
+}
+
+.formular{
+    top: 200px;
+    margin: auto;
+    display:inline;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #a494f5;
+    height: auto;
+    width: auto;
+}
+
+.title-div{
+    display: block;
+    top: 100px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal-info{
+    
+}
+
+.title{
+    font-size: large;
+    font-weight: bold;
+
+}
+.subtitle{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.in-a-line{
+    float: left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.li-div{
+    margin: 10px;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.step{
+    margin: 10px;
+}
