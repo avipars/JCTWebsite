@@ -1,122 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up Student</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+    <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
+            </svg>
+            <span class="font-semibold text-xl tracking-tight">ConnectLev</span>
+        </div>
+        <div class="block lg:hidden">
+            <button
+                class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+            <div class="text-sm lg:flex-grow">
+                <a href="signup.html" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    Sign up
+                </a>
+                <a href="login.html" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    Log in
+                </a>
+                <!--       <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+            Blog
+          </a> -->
+            </div>
+            <!--     <div>
+          <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
+        </div> -->
+        </div>
+    </nav>
     <!--separate header-->
     <div class="header">
         <!--put everything in one line-->
         <span class="menu">
             <!--logo-->
-           
-         <a class="logo-link" href="#"><img class="logo-img" src="#"/></a>
-           
+
+            <a class="logo-link" href="#"><img class="logo-img" src="#" /></a>
+
             <!--menu nav-->
             <div class="top-menu-div">
-        <nav class="top-menu">
-            <ul class="uu">
-                <li ><a class="aa" href="#">Home</a></li>
-                <li ><a class="aa" href="#">Network</a></li>
-                <li ><a class="aa" href="#">Mentor Sessions</a></li>
-                <li ><a class="aa" href="#">Career Advice</a></li>
-            </ul>
-            </nav>
-        </div>
-        <!-- Account button-->
-        <div class="Account">
-            <img src="#" class="Account-img"/>
-            <h3 class="Account-h3">Account Name</h3>
-            <a class="Account-link">></a>
-        </div>
+                <nav class="top-menu">
+                    <ul class="uu">
+                        <li><a class="aa" href="#">Home</a></li>
+                        <li><a class="aa" href="#">Network</a></li>
+                        <li><a class="aa" href="#">Mentor Sessions</a></li>
+                        <li><a class="aa" href="#">Career Advice</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Account button-->
+            <div class="Account">
+                <img src="#" class="Account-img" />
+                <h3 class="Account-h3">Account Name</h3>
+                <a class="Account-link">></a>
+            </div>
         </span>
     </div>
 
- 
+
     <div class="formular">
-      <!---  <div class="title-div">-->
-            <h2 class="title">Welcome to the Mentor Portal Website for the JCT International Program!</h2>
-          
-            <!--Formular-->
-            <h3 class="subtitle">Your almost there!</h3> 
-    <form class="StudentFormular">
-        <h2 class="title">Student Account Information</h2>
-        <ul>
-            <li class="step"> Basic Info
-                <div class="personal-info">
+        <!---  <div class="title-div">-->
+        <h2 class="title">Welcome to the Mentor Portal Website for the JCT International Program!</h2>
 
-                 <div><input class="personal-input" type="text" name="" placeholder="First Name"></div>
-                <div><input class="personal-input" type="text" name="" placeholder="Last Name"></div>
-                <div><input class="personal-input" type="text" name="" placeholder="email"></div>
+        <!--Formular-->
+        <h3 class="subtitle">Your almost there!</h3>
+        <form class="StudentFormular">
+            <h2 class="title">Student Account Information</h2>
+            <ul>
+                <li class="step"> Basic Info
+                    <div class="personal-info">
+
+                        <div><input class="personal-input" type="text" name="" placeholder="First Name"></div>
+                        <div><input class="personal-input" type="text" name="" placeholder="Last Name"></div>
+                        <div><input class="personal-input" type="text" name="" placeholder="email"></div>
+                    </div>
+
+                </li>
+                <span class="in-a-line">
+                    <div class="li-div">
+                        <li class="step">
+                            <label for="school">School:</label>
+                            <div>
+                                <select id="school" name="school">
+                                    <option value="Machon-Lev" selected>Machon Lev</option>
+                                    <option value="Machon-Tal">Machon Tal</option>
+                                </select>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="li-div">
+                        <li class="step">
+                            <label for="Degree">Degree:</label>
+                            <div>
+                                <select id="degree" name="degree">
+                                    <option value="Computer-Science" selected>Computer Science</option>
+                                    <option value="Business-Administration">Business Administration</option>
+                                </select>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="li-div">
+                        <li class="step">
+                            <label for="Year">Year: </label>
+                            <div>
+                                <select id="year" name="year">
+                                    <option value="1st">1st</option>
+                                    <option value="2nd" selected>2nd</option>
+                                    <option value="3rd">3rd</option>
+                                    <option value="4th">4th</option>
+                                </select>
+                            </div>
+                        </li>
+                    </div>
+                </span>
+                <div class="cv-div">
+                    <span class="in-a-line">
+                        <div>
+                            <li class="step">
+
+                                <label for="cv">Store CV: </label>
+                                <input type="file" id="myfile" name="myfile" multiple>
+                                <div>By storing your CV on
+                                    this website, mentors
+                                    will be able
+                                    to quickly refer you to
+                                    their recruiters when
+                                    their companies
+                                    post job openings</div>
+
+                                <div>
+
+                                    <div><input class="personal-input" type="radio" name="cv" value="cv-1" required>
+                                        <label for="cv-1">Give any mentor access to my CV</label>
+                                    </div>
+                                    <div><input class="personal-input" type="radio" name="cv" value="cv-2" required>
+                                        <label for="cv-2">Only give access to mentor's who I've selected</label>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </span>
                 </div>
-
-            </li>
-            <span class="in-a-line">
-                <div class="li-div"><li class="step">
-                    <label for="school">School:</label>
-                    <div>
-                    <select id="school" name="school">
-                      <option value="Machon-Lev" selected>Machon Lev</option>
-                      <option value="Machon-Tal">Machon Tal</option>
-                    </select></div>
-            </li>
-        </div>
-        <div class="li-div"><li class="step">
-            <label for="Degree">Degree:</label>
-            <div>
-            <select id="degree" name="degree">
-              <option value="Computer-Science" selected>Computer Science</option>
-              <option value="Business-Administration">Business Administration</option>
-            </select></div>
-        </li>
     </div>
-    <div class="li-div"><li class="step">
-        <label for="Year">Year: </label>
-        <div>
-        <select id="year" name="year">
-          <option value="1st">1st</option>
-          <option value="2nd" selected>2nd</option>
-          <option value="3rd">3rd</option>
-          <option value="4th">4th</option>
-        </select></div>
-    </li>
-    </div>        
-   </span>
-    <div class="cv-div">
-        <span class="in-a-line">
-          <div> <li class="step">  
-        
-       <label for="cv">Store CV: </label>
-       <input type="file" id="myfile" name="myfile" multiple>
-        <div>By storing your CV on
-            this website, mentors
-            will be able
-            to quickly refer you to
-            their recruiters when
-            their companies
-            post job openings</div>
 
-        <div>
-
-            <div><input class="personal-input" type="radio" name="cv" value="cv-1" required >
-            <label for="cv-1">Give any mentor access to my CV</label>
-            </div>
-            <div><input class="personal-input" type="radio" name="cv" value="cv-2" required>
-            <label for="cv-2">Only give access to mentor's who I've selected</label>
-            </div>
-        </div>
-        </li>
-    </div>
-    </span>
-         </div>
-</div>
-
-        </ul>
+    </ul>
     </form>
-</div>
+    </div>
 </body>
+
 </html>
